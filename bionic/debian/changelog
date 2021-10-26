@@ -1,3 +1,9 @@
+ignition-gazebo6 (6.1.0-1~bionic) bionic; urgency=medium
+
+  * ignition-gazebo6 6.1.0-1 release
+
+ -- Nate Koenig <nate@openrobotics.org>  Mon, 25 Oct 2021 16:31:32 -0700
+
 ignition-gazebo6 (6.0.0-1~bionic) bionic; urgency=medium
 
   * ignition-gazebo6 6.0.0-1 release
