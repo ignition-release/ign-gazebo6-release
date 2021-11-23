@@ -25,7 +25,7 @@ Build-Depends: cmake,
                libignition-transport11-log-dev,
                libignition-utils1-cli-dev,
                libignition-utils1-dev,
-               libsdformat12-dev (>= 12.1.0)
+               libsdformat12-dev (>= 12.2.0)
 Vcs-Browser: https://github.com/ignition-release/ign-gazebo6-release
 Vcs-Git: https://github.com/ignition-release/ign-gazebo6-release
 Homepage: http://ignitionrobotics.org/
@@ -77,7 +77,7 @@ Depends: libtinyxml2-dev,
          libignition-transport11-log-dev,
          libignition-utils1-cli-dev,
          libignition-utils1-dev,
-         libsdformat12-dev (>= 12.1.0),
+         libsdformat12-dev (>= 12.2.0),
          libignition-gazebo6 (= ${binary:Version}),
          libignition-gazebo6-plugins (= ${binary:Version}),
          ${misc:Depends}
