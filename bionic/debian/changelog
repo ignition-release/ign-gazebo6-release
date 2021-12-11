@@ -1,3 +1,9 @@
+ignition-gazebo6 (6.3.0-1~bionic) bionic; urgency=medium
+
+  * ignition-gazebo6 6.3.0-1 release
+
+ -- Louise Poubel <louise@openrobotics.org>  Sat, 11 Dec 2021 09:47:32 -0800
+
 ignition-gazebo6 (6.2.0-1~bionic) bionic; urgency=medium
 
   * ignition-gazebo6 6.2.0-1 release
