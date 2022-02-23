@@ -1,4 +1,4 @@
 Test-Command: set -e ; for py in $(py3versions -r 2>/dev/null) ; do cd "$AUTOPKGTEST_TMP" ; echo "Testing with $py:" ; $py -c "import ignition.gazebo; print(ignition.gazebo)" ; done
-Depends: python3-all, python3-flaky
+Depends: python3-ignition-gazebo6, python3-all, python3-flaky
 Restrictions: allow-stderr, superficial
 Features: test-name=custom-version-of-autodep8-python3
