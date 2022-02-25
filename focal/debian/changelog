@@ -1,3 +1,9 @@
+ignition-gazebo6 (6.6.0-1~focal) focal; urgency=medium
+
+  * ignition-gazebo6 6.6.0-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Thu, 24 Feb 2022 18:58:37 -0800
+
 ignition-gazebo6 (6.6.0~pre1-2~focal) focal; urgency=medium
 
   * ignition-gazebo6 6.6.0~pre1-2 release
