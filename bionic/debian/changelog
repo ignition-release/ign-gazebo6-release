@@ -1,8 +1,26 @@
+ignition-gazebo6 (6.7.0-1~bionic) bionic; urgency=medium
+
+  * ignition-gazebo6 6.7.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 04 Mar 2022 19:25:58 +0100
+
+ignition-gazebo6 (6.6.0-1~bionic) bionic; urgency=medium
+
+  * ignition-gazebo6 6.6.0-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Thu, 24 Feb 2022 18:58:37 -0800
+
 ignition-gazebo6 (6.6.0~pre1-2~bionic) bionic; urgency=medium
 
   * ignition-gazebo6 6.6.0~pre1-2 release
 
- -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 18 Feb 2022 22:36:03 +0100
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 18 Feb 2022 22:34:47 +0100
+
+ignition-gazebo6 (6.6.0~pre1-1~bionic) bionic; urgency=medium
+
+  * ignition-gazebo6 6.6.0~pre1-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Fri, 18 Feb 2022 18:33:10 +0100
 
 ignition-gazebo6 (6.5.0-1~bionic) bionic; urgency=medium
 
