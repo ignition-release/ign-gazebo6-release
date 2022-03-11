@@ -8,7 +8,7 @@ export PYBUILD_NAME=ignition-gazebo6
         override_dh_auto_test
 
 %:
-	dh $@ --parallel --with python3
+	dh $@ --with python3
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
@@ -19,12 +19,9 @@ override_dh_auto_configure:
 override_dh_install:
 	dh_install --
 	$(RM) debian/ignition-gazebo*/usr/share/ignition/ignition-gazebo*/ignition-gazebo*.tag.xml
-	dh_missing --list-missing
 
-# test cannot run in parallel
 override_dh_auto_test:
 	# failing tests needs inspection
-	# dh_auto_test --max-parallel=1
 	true
 
 override_dh_strip:

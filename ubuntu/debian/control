@@ -1,12 +1,11 @@
 Source: ignition-gazebo6
-Standards-Version: 3.9.8
 Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
 Build-Depends: cmake,
                doxygen,
                pkg-config,
-               debhelper (>= 9),
+               debhelper (>= 11),
                dh-python,
                libtinyxml2-dev,
                libignition-tools-dev,
@@ -29,8 +28,9 @@ Build-Depends: cmake,
                libsdformat12-dev (>= 12.3.0),
                python3-dev,
                python3-pybind11
-Vcs-Browser: https://github.com/ignition-release/ign-gazebo6-release
+Vcs-Browser: https://github.com/ignitionrobotics/ignition-gazebo
 Vcs-Git: https://github.com/ignition-release/ign-gazebo6-release
+Standards-Version: 4.5.1
 Homepage: http://ignitionrobotics.org/
 
 Package: libignition-gazebo6
@@ -40,6 +40,8 @@ Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends},
          ${misc:Depends},
          qml-module-qtqml-models2
+Breaks: libignition-gazebo6-6 (>= 6.4.0+ds)
+Replaces: libignition-gazebo6-6 (>= 6.4.0+ds)
 Multi-Arch: same
 Description: Ignition Gazebo classes and functions for robot apps - Shared library
  Ignition Gazebo is a component in the ignition framework, a set of libraries
