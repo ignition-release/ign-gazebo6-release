@@ -3,8 +3,6 @@ Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
 Section: science
 Priority: optional
 Build-Depends: cmake,
-               doxygen,
-               graphviz,
                pkg-config,
                debhelper (>= 11),
                dh-python,
