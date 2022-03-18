@@ -2,15 +2,6 @@ Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ignition-gazebo
 Upstream-Contact: https://github.com/ignitionrobotics/ign-gazebo/issues
 Source: https://github.com/ignitionrobotics/ign-gazebo
-Comment: All the test *.dae *.obj files are non-free: CC NonCommercial
-Files-Excluded: .github
-                NEWS
-                codecov.yml
-                test/gtest
-                test/media/*.dae
-                test/worlds/models/building_L1/meshes
-                test/worlds/models/scheme_resource_uri/meshes
-                test/worlds/models/mesh_with_submeshes/meshes
 
 Files: *
 Copyright: 2012-2021, Open Source Robotics Foundation
