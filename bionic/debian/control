@@ -1,1 +1,121 @@
-../../ubuntu/debian/control
+Source: ignition-gazebo6
+Standards-Version: 3.9.8
+Maintainer: Jose Luis Rivero <jrivero@osrfoundation.org>
+Section: science
+Priority: optional
+Build-Depends: cmake,
+               doxygen,
+               pkg-config,
+               debhelper (>= 9),
+               libtinyxml2-dev,
+               libignition-tools-dev,
+               libignition-cmake2-dev (>= 2.8.0),
+               libignition-common4-av-dev (>= 4.4.0),
+               libignition-common4-profiler-dev (>= 4.4.0),
+               libignition-common4-events-dev (>= 4.4.0),
+               libignition-fuel-tools7-dev,
+               libignition-gui6-dev (>= 6.1.0),
+               libignition-math6-dev (>= 6.9.0),
+               libignition-math6-eigen3-dev (>= 6.9.0),
+               libignition-msgs8-dev,
+               libignition-plugin-dev,
+               libignition-physics5-dev (>= 5.1.0),
+               libignition-sensors6-dev (>= 6.0.1),
+               libignition-rendering6-dev,
+               libignition-transport11-log-dev,
+               libignition-utils1-cli-dev,
+               libignition-utils1-dev,
+               libsdformat12-dev (>= 12.3.0),
+               python3-dev
+Vcs-Browser: https://github.com/ignition-release/ign-gazebo6-release
+Vcs-Git: https://github.com/ignition-release/ign-gazebo6-release
+Homepage: http://ignitionrobotics.org/
+
+Package: libignition-gazebo6
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+         qml-module-qtqml-models2
+Multi-Arch: same
+Description: Ignition Gazebo classes and functions for robot apps - Shared library
+ Ignition Gazebo is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Main shared library
+
+Package: libignition-gazebo6-plugins
+Architecture: any
+Section: libs
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Gazebo classes and functions for robot apps - Plugins
+ Ignition Gazebo is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Plugins collection
+
+Package: libignition-gazebo6-dev
+Architecture: any
+Section: libdevel
+Depends: libtinyxml2-dev,
+         libignition-tools-dev,
+         libignition-cmake2-dev (>= 2.8.0),
+         libignition-common4-av-dev (>= 4.4.0),
+         libignition-common4-profiler-dev (>= 4.4.0),
+         libignition-common4-events-dev (>= 4.4.0),
+         libignition-fuel-tools7-dev,
+         libignition-gui6-dev (>= 6.1.0),
+         libignition-math6-dev (>= 6.9.0),
+         libignition-math6-eigen3-dev (>= 6.9.0),
+         libignition-msgs8-dev,
+         libignition-plugin-dev,
+         libignition-physics5-dev (>= 5.1.0),
+         libignition-sensors6-dev (>= 6.0.1),
+         libignition-rendering6-dev,
+         libignition-transport11-log-dev,
+         libignition-utils1-cli-dev,
+         libignition-utils1-dev,
+         libsdformat12-dev (>= 12.3.0),
+         libignition-gazebo6 (= ${binary:Version}),
+         libignition-gazebo6-plugins (= ${binary:Version}),
+         ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Gazebo classes and functions for robot apps - Development files
+ Ignition Gazebo is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Development files
+
+# Bionic version of pybind11 is not enough for ign-gazebo6
+
+# Package: python3-ignition-gazebo6
+# Architecture: any
+# Depends: libignition-gazebo6 (= ${binary:Version}),
+#          python3-distutils,
+#          python3-pybind11,
+#          ${misc:Depends},
+#          ${python3:Depends},
+#          ${shlibs:Depends},
+# Enhances: libignition-gazebo6
+# Description: Ignition Gazebo classes and functions for robot apps - Development files
+#  Ignition Gazebo is a component in the ignition framework, a set of libraries
+#  designed to rapidly develop robot applications.
+#  .
+#  The package contains the Python3 bindings.
+
+Package: libignition-gazebo6-dbg
+Architecture: any
+Section: debug
+Priority: extra
+Depends:
+     libignition-gazebo6 (= ${binary:Version}),
+     ${misc:Depends}
+Multi-Arch: same
+Description: Ignition Gazebo classes and functions for robot apps - Debug symbols
+ Ignition Gazebo is a component in the ignition framework, a set of libraries
+ designed to rapidly develop robot applications.
+ .
+ Debug symbols
