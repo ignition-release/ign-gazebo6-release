@@ -1,3 +1,9 @@
+ignition-gazebo6 (6.8.0-1~bionic) bionic; urgency=medium
+
+  * ignition-gazebo6 6.8.0-1 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Mon, 04 Apr 2022 23:42:13 +0200
+
 ignition-gazebo6 (6.7.0-2~bionic) bionic; urgency=medium
 
   * ignition-gazebo6 6.7.0-2 release
