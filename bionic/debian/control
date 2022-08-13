@@ -27,8 +27,8 @@ Build-Depends: cmake,
                libignition-utils1-dev,
                libsdformat12-dev (>= 12.3.0),
                python3-dev
-Vcs-Browser: https://github.com/gazebo-release/gz-gazebo6-release
-Vcs-Git: https://github.com/gazebo-release/gz-gazebo6-release
+Vcs-Browser: https://github.com/gazebo-release/gz-sim6-release
+Vcs-Git: https://github.com/gazebo-release/gz-sim6-release
 Homepage: http://gazebosim.org/
 
 Package: libignition-gazebo6
@@ -39,8 +39,8 @@ Depends: ${shlibs:Depends},
          ${misc:Depends},
          qml-module-qtqml-models2
 Multi-Arch: same
-Description: Gazebo Gazebo classes and functions for robot apps - Shared library
- Gazebo Gazebo is a component in the Gazebo framework, a set of libraries
+Description: Gazebo Sim classes and functions for robot apps - Shared library
+ Gazebo Sim is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Main shared library
@@ -51,8 +51,8 @@ Section: libs
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}
 Multi-Arch: same
-Description: Gazebo Gazebo classes and functions for robot apps - Plugins
- Gazebo Gazebo is a component in the Gazebo framework, a set of libraries
+Description: Gazebo Sim classes and functions for robot apps - Plugins
+ Gazebo Sim is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Plugins collection
@@ -83,8 +83,8 @@ Depends: libtinyxml2-dev,
          libignition-gazebo6-plugins (= ${binary:Version}),
          ${misc:Depends}
 Multi-Arch: same
-Description: Gazebo Gazebo classes and functions for robot apps - Development files
- Gazebo Gazebo is a component in the Gazebo framework, a set of libraries
+Description: Gazebo Sim classes and functions for robot apps - Development files
+ Gazebo Sim is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Development files
@@ -100,8 +100,8 @@ Description: Gazebo Gazebo classes and functions for robot apps - Development fi
 #          ${python3:Depends},
 #          ${shlibs:Depends},
 # Enhances: libignition-gazebo6
-# Description: Gazebo Gazebo classes and functions for robot apps - Development files
-#  Gazebo Gazebo is a component in the Gazebo framework, a set of libraries
+# Description: Gazebo Sim classes and functions for robot apps - Development files
+#  Gazebo Sim is a component in the Gazebo framework, a set of libraries
 #  designed to rapidly develop robot applications.
 #  .
 #  The package contains the Python3 bindings.
@@ -114,8 +114,8 @@ Depends:
      libignition-gazebo6 (= ${binary:Version}),
      ${misc:Depends}
 Multi-Arch: same
-Description: Gazebo Gazebo classes and functions for robot apps - Debug symbols
- Gazebo Gazebo is a component in the Gazebo framework, a set of libraries
+Description: Gazebo Sim classes and functions for robot apps - Debug symbols
+ Gazebo Sim is a component in the Gazebo framework, a set of libraries
  designed to rapidly develop robot applications.
  .
  Debug symbols
