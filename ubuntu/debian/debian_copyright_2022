@@ -1,7 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ignition-gazebo
-Upstream-Contact: https://github.com/ignitionrobotics/ign-gazebo/issues
-Source: https://github.com/ignitionrobotics/ign-gazebo
+Upstream-Contact: https://github.com/gazebosim/gz-gazebo/issues
+Source: https://github.com/gazebosim/gz-gazebo
 
 Files: *
 Copyright: 2012-2021, Open Source Robotics Foundation
