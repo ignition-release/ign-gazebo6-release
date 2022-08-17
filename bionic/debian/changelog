@@ -1,3 +1,9 @@
+ignition-gazebo6 (6.11.0-1~bionic) bionic; urgency=medium
+
+  * ignition-gazebo6 6.11.0-1 release
+
+ -- Ian Chen <ichen@openrobotics.org>  Wed, 17 Aug 2022 11:12:22 -0700
+
 ignition-gazebo6 (6.10.0-1~bionic) bionic; urgency=medium
 
   * ignition-gazebo6 6.10.0-1 release
