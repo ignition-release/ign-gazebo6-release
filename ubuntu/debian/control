@@ -147,7 +147,7 @@ Section: oldlibs
 Description: transitional package
  It's recommended to use the gz packages going forward.
 
-Package: python3-gz-gazebo6
+Package: python3-gz-sim6
 Depends: python3-ignition-gazebo6 (= ${binary:Version}), ${misc:Depends}
 Architecture: all
 Priority: optional
