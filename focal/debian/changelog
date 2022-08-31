@@ -1,3 +1,9 @@
+ignition-gazebo6 (6.12.0-1~focal) focal; urgency=medium
+
+  * ignition-gazebo6 6.12.0-1 release
+
+ -- Dharini Dutia <dharini@openrobotics.org>  Tue, 30 Aug 2022 20:51:37 -0700
+
 ignition-gazebo6 (6.11.0-2~focal) focal; urgency=medium
 
   * ignition-gazebo6 6.11.0-2 release
