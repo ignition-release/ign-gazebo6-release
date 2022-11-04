@@ -1,3 +1,9 @@
+ignition-gazebo6 (6.13.0-1~bionic) bionic; urgency=medium
+
+  * ignition-gazebo6 6.13.0-1 release
+
+ -- Michael Carroll <michael@openrobotics.org>  Fri, 04 Nov 2022 10:24:47 -0500
+
 ignition-gazebo6 (6.12.0-1~bionic) bionic; urgency=medium
 
   * ignition-gazebo6 6.12.0-1 release
