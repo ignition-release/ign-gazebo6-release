@@ -1,3 +1,9 @@
+ignition-gazebo6 (6.15.0-1~jammy) jammy; urgency=medium
+
+  * ignition-gazebo6 6.15.0-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Wed, 16 Aug 2023 10:11:45 -0500
+
 ignition-gazebo6 (6.14.0-1~jammy) jammy; urgency=medium
 
   * ignition-gazebo6 6.14.0-1 release
