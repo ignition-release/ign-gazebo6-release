@@ -1,3 +1,9 @@
+ignition-gazebo6 (6.16.0-1~bionic) bionic; urgency=medium
+
+  * ignition-gazebo6 6.16.0-1 release
+
+ -- Addisu Z. Taddese <addisu@openrobotics.org>  Fri, 12 Jan 2024 18:59:35 -0600
+
 ignition-gazebo6 (6.15.0-1~bionic) bionic; urgency=medium
 
   * ignition-gazebo6 6.15.0-1 release
