@@ -2,6 +2,8 @@
 # -*- makefile -*-
 
 export PYBUILD_NAME=ignition-gazebo6
+# See https://github.com/gazebosim/gz-sim/issues/2301
+export DEB_BUILD_MAINT_OPTIONS=optimize=-lto
 
 .PHONY: override_dh_auto_configure \
         override_dh_install \
