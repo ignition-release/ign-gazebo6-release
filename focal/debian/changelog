@@ -1,3 +1,9 @@
+ignition-gazebo6 (6.16.0-2~focal) focal; urgency=medium
+
+  * ignition-gazebo6 6.16.0-2 release
+
+ -- Jose Luis Rivero <jrivero@osrfoundation.org>  Thu, 08 Feb 2024 16:00:57 +0100
+
 ignition-gazebo6 (6.16.0-1~focal) focal; urgency=medium
 
   * ignition-gazebo6 6.16.0-1 release
